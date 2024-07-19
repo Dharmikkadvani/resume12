@@ -1,0 +1,79 @@
+/* Body styles */
+body ,html {
+    padding-top: 56px; 
+    font-family: 'Arial';
+    background-color: white;
+    scroll-behavior:smooth 
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #343a40; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffffff; /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  }
+  
+  .navbar-nav .nav-link {
+    color: lightcoral; /* White text */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Text shadow for depth */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #ef5454; /* Red on hover */
+  }
+  
+
+  .container-fluid {
+    padding: 50px 15px; /* Add padding to content */
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Depth effect */
+    border-radius: 8px; /* Rounded corners */
+  }
+  
+  section {
+    margin-bottom: 40px; /* Space between sections */
+  }
+  
+  h2 {
+    color: #333333; /* Dark gray */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: darkblue; /* Medium gray */
+    line-height: 1.6;
+  }
+  
+
+  @media (max-width: 768px) {
+    .navbar-nav.ml-auto {
+      text-align: center; /* Center align links on mobile */
+    }
+  
+    .navbar-nav .nav-link {
+      padding: 0.5rem 1rem; /* Adjust padding for better touch targets */
+    }
+  }
+  
+
+  .navbar-brand img {
+    max-width: 60px; /* Adjust the size of the photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it round */
+    margin-right: 10px; /* Optional: Adjust spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Depth effect */
+  }
+  
+  .navbar-brand img:hover {
+    transform: scale(1.1); /* Zoom effect on hover */
+    transition: transform 0.3s ease-out;
+  }
+
+  .skillcolor{
+    color:darkblue;
+  }
